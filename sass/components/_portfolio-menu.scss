@@ -1,0 +1,33 @@
+.portfolio-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-menu__item:not(:first-child) {
+    margin-left: 10px;
+}
+
+.portfolio-menu__button {
+    @extend %button;
+    display: flex;
+    justify-content: center;
+    min-width: 73px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: $color-button;
+    border-radius: 4px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: $primary-text-color;
+    transition: background-color 250ms $transition-timing-function, color 250ms $transition-timing-function, box-shadow 250ms $transition-timing-function;
+    &:hover,
+    &:focus {
+        background-color: $accent-text;
+        color: $bg-color;
+        box-shadow: $button-shadow;
+    }
+}
