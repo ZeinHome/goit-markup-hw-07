@@ -1,15 +1,15 @@
-// /* text */
+//  text 
 $primary-text-color: #212121;
 $accent-text: #2196F3;
 $second-text: #757575;
 $color-other: #FFFFFF;
 $color-hero: #FFFFFF;
 $under-link: rgba(255, 255, 255, 0.6);
-// /* button */
+//  button 
 $primary-button: #2196F3;
 $color-title-button: #FFFFFF;
 $color-button: #F5F4FA;
-// /* background */
+//  background 
 $bg-color: #FFFFFF;
 $bg-hero: #2F303A;
 $bg-color-s: #E5E5E5;
@@ -17,11 +17,11 @@ $bg-section-team: #F5F4FA;
 $gradien-color: rgba(47, 48, 58, 0.4);
 $bg-backdrop: rgba(0, 0, 0, 0.2);
 $bg--title-img: rgba(47, 48, 58, 0.8);
-// /* line */
+//  line 
 $color-line: #ECECEC;
-// /* SVG */
+//  SVG 
 $color-company: #AFB1B8;
-// /* shadow */
+//  shadow 
 $shadow-photo: 0px 1px 1px rgba(0, 0, 0, 0.12),
 0px 4px 4px rgba(0, 0, 0, 0.06),
 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -33,13 +33,13 @@ $shadow-modal: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14),
 0px 2px 1px rgba(0, 0, 0, 0.2);
 $shadow-join: rgba(255, 255, 255, 0.1);
-// /* animation */
+//  animation 
 $transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-// /* border */
+//  border 
 $border-button-close: rgba(0, 0, 0, 0.1);
 $border-footer-input: rgba(255, 255, 255, 0.3);
 $border-image: #EEEEEE;
-// /* Утилиты */
+//  Утилиты 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--bg-color);
