@@ -88,12 +88,10 @@ ul {
     margin-right: auto;
     &__header {
         display: flex;
-        @extend .container;
     }
-    &-footer {
+    &--footer {
         display: flex;
         align-items: baseline;
-        @extend .container;
     }
 }
 
@@ -101,13 +99,12 @@ ul {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    &__teames {
-        @extend .section;
+    &--teames {
         background-color: $bg-section-team;
     }
 }
 
-.section__no-padding {
+.section--no-padding {
     padding-top: 0;
 }
 
